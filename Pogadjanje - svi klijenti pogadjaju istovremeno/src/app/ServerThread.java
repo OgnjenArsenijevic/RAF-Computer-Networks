@@ -25,8 +25,7 @@ public class ServerThread implements Runnable
 	@Override
 	public void run()
 	{
-		System.out
-				.println("Povezao se klijent broj " + rbr + " sa adresom " + socket.getInetAddress().getHostAddress());
+		System.out.println("Povezao se klijent broj " + rbr + " sa adresom " + socket.getInetAddress().getHostAddress());
 		try
 		{
 			BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
