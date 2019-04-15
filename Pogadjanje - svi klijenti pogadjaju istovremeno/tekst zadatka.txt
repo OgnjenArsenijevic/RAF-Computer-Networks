@@ -1,1 +1,3 @@
-Server kreira tajni broj. Klijenti mogu da se povezuju na server i nagadjaju istovremeno sve dok neko od klijenata ne pogodi. Server takodje pamti koji klijent je pogodio broj i prikazuje njegovo ime ostalim klijentima.
+Server kreira tajni broj. 
+Klijenti mogu da se povezuju na server i nagadjaju istovremeno sve dok neko od klijenata ne pogodi. 
+Server takodje pamti koji klijent je pogodio broj i prikazuje njegovo ime ostalim klijentima.
