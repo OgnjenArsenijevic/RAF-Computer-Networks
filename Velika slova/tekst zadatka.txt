@@ -1,0 +1,1 @@
+Klijent salje serveru tekst, server vraca nazad iste reci ispisane velikim slovima.
