@@ -1,0 +1,5 @@
+Napraviti klijent - server program, gde se unosi tekst na klijentskoj strani, klijent ce napraviti siforvan tekst po kljucu 5, i sifrovani teskt poslati serveru. 
+
+Evidentirati sve klijente koji su se konektovali na server.
+
+
