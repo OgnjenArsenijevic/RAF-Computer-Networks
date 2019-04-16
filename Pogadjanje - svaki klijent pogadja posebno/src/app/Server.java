@@ -7,23 +7,23 @@ import java.net.Socket;
 public class Server
 {
 
-	private int rbr=1;
-	
+	private int rbr = 1;
+
 	public Server() throws IOException
 	{
-		ServerSocket serverSocket=new ServerSocket(2019);
+		ServerSocket serverSocket = new ServerSocket(2019);
 		System.out.println("Server se povezao na port 2019");
-		
-		while(true)
+
+		while (true)
 		{
-			Socket socket=serverSocket.accept();
-			ServerThread serverThread=new ServerThread(socket,rbr++);
+			Socket socket = serverSocket.accept();
+			ServerThread serverThread = new ServerThread(socket, rbr++);
 			Thread thread = new Thread(serverThread);
 			thread.start();
 		}
 
 	}
-	
+
 	public static void main(String[] args)
 	{
 		try
