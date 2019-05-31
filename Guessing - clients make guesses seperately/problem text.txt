@@ -1,0 +1,3 @@
+Klijent se povezuje na server.
+Server kreira tajni broj i govori klijentu da pogadja sve dok klijent ne pogodi broj.
+Svaki klijent dobija svoj broj.

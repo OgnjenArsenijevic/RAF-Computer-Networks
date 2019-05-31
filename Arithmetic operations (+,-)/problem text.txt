@@ -1,0 +1,3 @@
+Napraviti klijent - server program, 
+gde klijent serveru salje izraz u obliku A op B op C op D, gde su operacije + i -, a A, B, C... celi brojevi.
+Server podrzava vise klijenata istovremeno, a klijenti salju po jedan izraz za resavanje.
